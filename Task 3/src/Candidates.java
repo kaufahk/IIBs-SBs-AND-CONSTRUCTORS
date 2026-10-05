@@ -20,5 +20,12 @@ public class Candidates {
         CandidateName = C;
     }
     public void display() {
+        System.out.println("\n General Examination Settings");
+        System.out.println("Registration Status "+RegistrationStatus);
+        System.out.println("Exam Centre "+ExamCentre);
+        System.out.println("Candidate Name "+CandidateName);
+        System.out.println("Grading Policies "+GradingPolicies);
+        System.out.println("Exam Year "+ExamYear);
+        System.out.println("RegistrationFees "+RegistrationFees);
     }
 }
