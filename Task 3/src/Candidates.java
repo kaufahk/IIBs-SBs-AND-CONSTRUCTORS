@@ -10,4 +10,10 @@ public class Candidates {
         RegistrationStatus = "Active";
         ExamCentre = "25/UG/1608/BSCS-S";
     }
+    static {
+        System.out.println("\n STATIC BLOCK ");
+        ExamYear = 2024;
+        RegistrationFees = 2000;
+        GradingPolicies = "A=85-100, B= 75-84, C= 65-74";
+    }
 }
