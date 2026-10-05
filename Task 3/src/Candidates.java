@@ -19,4 +19,6 @@ public class Candidates {
     public Candidates(String C) {
         CandidateName = C;
     }
+    public void display() {
+    }
 }
